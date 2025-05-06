@@ -1,0 +1,65 @@
+# General
+*.log
+*.swp
+*.bak
+*.tmp
+*~
+
+# Qt Creator
+*.user
+*.user.*
+*.pro.user
+*.autosave
+*.qbs.user
+*.creator.*
+CMakeLists.txt.user
+.qtc_clangd/
+
+# PyCharm
+.idea/
+*.iml
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg
+*.egg-info/
+dist/
+build/
+.env/
+.venv/
+pip-wheel-metadata/
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# ROS 2 Humble (Python and C++)
+install/
+build/
+log/
+*.pyc
+.colcon/
+.colcon_ignore
+*.launch.pyc
+*.launch.py~
+*.DS_Store
+
+# Optional: Ignore generated messages and services
+**/msg/*.h
+**/srv/*.h
+**/msg/*.py
+**/srv/*.py
+
+# CMake and catkin/colcon artifacts
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Backup files
+*.orig
+*.rej
+
+# ROS 2 packages (generated/temporary)
+ament_index/
